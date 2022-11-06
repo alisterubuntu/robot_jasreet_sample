@@ -1,0 +1,32 @@
+1) git init
+
+2) git add .
+
+3) git commit -m "Add all my files"
+
+4) git remote add origin https://github.com/yourusername/your-repo-name.git
+
+Upload of project from scratch require git pull origin master.
+
+5) git pull origin master
+
+6) git push origin master
+
+If any problem occurs in pushing use git push --force origin master
+
+
+Than we should add PPA to get your SmartGit.
+
+sudo add-apt-repository ppa:eugenesan/ppa
+sudo apt-get update
+
+Now, your Linux distribution is updated to install SmartGit.  Just follow the below commands,
+
+sudo apt-get install smartgit
+
+And, if you need to install SmartGitHg. Just use the below command as well.
+
+sudo apt-get install smartgithg
+
+
+https://www.jetbrains.com/help/pycharm/set-up-a-git-repository.html#
